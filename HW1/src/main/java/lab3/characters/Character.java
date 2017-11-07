@@ -57,7 +57,7 @@ public abstract class Character {
         action("killed", c);
     }
 
-    void hitBy(Character c, int powerDiff, int hpDiff) {
+    public void hitBy(Character c, int powerDiff, int hpDiff) {
         setPower(Math.max(getPower() - powerDiff, 0));
         setHp(Math.max(getHp() - hpDiff, 0));
         action("hit", c);
