@@ -3,10 +3,11 @@ package com.transport.validators;
 import com.transport.bl.DrivePoint;
 import org.springframework.stereotype.Service;
 
+import java.io.Serializable;
 import java.util.Date;
 
 @Service
-public class DrivePointValidatorImpl implements DrivePointValidator {
+public class DrivePointValidatorImpl implements DrivePointValidator, Serializable {
 
     @Override
     public boolean validate(DrivePoint drivePoint){

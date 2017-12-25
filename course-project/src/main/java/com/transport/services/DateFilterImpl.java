@@ -7,10 +7,11 @@ import org.apache.spark.api.java.JavaSparkContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.io.Serializable;
 import java.util.Date;
 
 @Service
-public class DateFilterImpl implements DateFilter {
+public class DateFilterImpl implements DateFilter, Serializable {
 
     @Override
     public JavaRDD<DrivePoint> filterDate(JavaRDD<DrivePoint> drivePoints, Date date) {

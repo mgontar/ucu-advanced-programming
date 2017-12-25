@@ -17,7 +17,7 @@ public class AutowiredBroadcastBPP implements BeanPostProcessor {
     private ApplicationContext context;
 
     @Autowired
-    private JavaSparkContext sc;
+    private transient JavaSparkContext sc;
 
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {

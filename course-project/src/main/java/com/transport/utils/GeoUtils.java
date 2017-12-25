@@ -13,7 +13,11 @@ public class GeoUtils {
         double t2 = Math.cos(a1)*Math.sin(a2)*Math.cos(b1)*Math.sin(b2);
         double t3 = Math.sin(a1)*Math.sin(b1);
         double tt = Math.acos(t1 + t2 + t3);
-
-        return 6366*tt;
+        tt = 6366*tt;
+        if (tt == Double.NaN)
+        {
+            tt = 0;
+        }
+        return tt;
     }
 }

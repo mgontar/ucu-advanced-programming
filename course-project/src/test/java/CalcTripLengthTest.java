@@ -1,6 +1,8 @@
 import com.transport.Conf;
 import com.transport.bl.DrivePoint;
 import com.transport.services.TripLengthCalc;
+import lombok.SneakyThrows;
+import org.apache.commons.lang.time.DateUtils;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 import org.junit.Assert;
@@ -16,7 +18,9 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -34,13 +38,12 @@ public class CalcTripLengthTest {
     private TripLengthCalc tripLengthCalc;
 
     @Test
+    @SneakyThrows
     public void calcTripLengthTest() {
-        int numberOfLines = 0;
         List<DrivePoint> drivePoints = new ArrayList<DrivePoint>();
         Path path = Paths.get("data/raw_data.txt");
         try{
             List<String> lines = Files.lines(path).collect(Collectors.toList());
-            numberOfLines = lines.size();
             for (String line :lines) {
                 drivePoints.add(new DrivePoint(line));
             }
@@ -51,7 +54,10 @@ public class CalcTripLengthTest {
             Assert.fail(ex.getMessage());
         }
         JavaRDD<DrivePoint> rddDrivePoints = sc.parallelize(drivePoints);
-
+        SimpleDateFormat dateFormatter = new SimpleDateFormat("yyyy-MM-dd");
+        Date date = dateFormatter.parse("2017-07-19");
+        rddDrivePoints = rddDrivePoints.filter(p -> p.getVehicleId() == 64368)
+                            .filter(p -> DateUtils.isSameDay(p.getDateStart(), date));
         double tripLength = tripLengthCalc.calcTripLength(rddDrivePoints);
         Assert.assertNotEquals(0, tripLength);
     }

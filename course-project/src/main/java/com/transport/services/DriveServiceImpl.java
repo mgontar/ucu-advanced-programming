@@ -8,15 +8,16 @@ import org.apache.spark.api.java.JavaSparkContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.io.Serializable;
 import java.util.Date;
 
 import static org.apache.spark.storage.StorageLevel.MEMORY_AND_DISK;
 
 @Service
-public class DriveServiceImpl implements DriveService {
+public class DriveServiceImpl implements DriveService, Serializable {
 
     @Autowired
-    private JavaSparkContext sc;
+    private transient JavaSparkContext sc;
 
     @Autowired
     private VehicleFilter vehicleFilter;
@@ -37,24 +38,13 @@ public class DriveServiceImpl implements DriveService {
     public double sumTripLength(String vehicleCode, Date date) {
         JavaRDD<String> rdd = sc.textFile("data/raw_data.txt");
         JavaRDD<DrivePoint> drivePoints = rdd.map(DrivePoint::new);
-        JavaRDD<DrivePoint> validDrivePoints = drivePoints.filter(dp -> dp.getRouteId() > 0);
-//        validDrivePoints.persist(MEMORY_AND_DISK());
-
-
+        /*
+        JavaRDD<DrivePoint> validDrivePoints = drivePoints.filter(dp -> dpValidator.validate(dp));
         JavaRDD<DrivePoint> vehiclePoints = vehicleFilter.filterVehicle(validDrivePoints, vehicleCode);
-/*
-        System.out.println(vehiclePoints);
-        vehiclePoints.persist(MEMORY_AND_DISK());
-
         JavaRDD<DrivePoint> vehicleDatePoints = dateFilter.filterDate(vehiclePoints, date);
-        System.out.println(vehicleDatePoints);
-        vehicleDatePoints.persist(MEMORY_AND_DISK());
-
         JavaRDD<DrivePoint> tripPoints = tripFilter.filterTrip(vehicleDatePoints);
-        System.out.println(tripPoints);
-        tripPoints.persist(MEMORY_AND_DISK());
-*/
-       double tripLength = tripLengthCalc.calcTripLength(vehiclePoints);
+        */
+       double tripLength = tripLengthCalc.calcTripLength(drivePoints);
        return tripLength;
     }
 }
