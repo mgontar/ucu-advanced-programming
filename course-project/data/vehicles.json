@@ -1,0 +1,542 @@
+[
+ {
+   "vehicleId": 38682,
+   "routeId": 712988,
+   "vehicleCode": "ВС 3164 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 38687,
+   "routeId": 712988,
+   "vehicleCode": "ВС 3162 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 38689,
+   "routeId": 712988,
+   "vehicleCode": "ВС 3170 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 38695,
+   "routeId": 712988,
+   "vehicleCode": "ВС 0801 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 38702,
+   "routeId": 712988,
+   "vehicleCode": "ВС 1121 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 38704,
+   "routeId": 712988,
+   "vehicleCode": "ВС 1182 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 38789,
+   "routeId": 712988,
+   "vehicleCode": "ВС 7284 СО",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 47956,
+   "routeId": 712988,
+   "vehicleCode": "ВС 2696 ЕВ",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 47976,
+   "routeId": 712988,
+   "vehicleCode": "ВС 3976 ЕІ",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 53981,
+   "routeId": 712988,
+   "vehicleCode": "ВС 3675 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 55690,
+   "routeId": 712988,
+   "vehicleCode": "ВС 2615 ЕВ",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 64360,
+   "routeId": 712991,
+   "vehicleCode": "ВС 2498 ЕТ",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 64361,
+   "routeId": 712991,
+   "vehicleCode": "ВС 2497 ЕТ",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 64364,
+   "routeId": 712991,
+   "vehicleCode": "ВС 2480 ЕТ",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 64368,
+   "routeId": 712991,
+   "vehicleCode": "ВС 2976 ЕТ",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 64369,
+   "routeId": 712991,
+   "vehicleCode": "ВС 2492 ЕТ",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 64395,
+   "routeId": 712991,
+   "vehicleCode": "ВС 2979 ЕТ",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 64486,
+   "routeId": 712991,
+   "vehicleCode": "ВС 6644 ЕТ",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 64487,
+   "routeId": 712991,
+   "vehicleCode": "ВС 6767 ЕТ",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 37158,
+   "routeId": 713002,
+   "vehicleCode": "ВС 0343 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 37161,
+   "routeId": 713002,
+   "vehicleCode": "ВС 9561 ЕВ",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 37162,
+   "routeId": 713002,
+   "vehicleCode": "ВС 4006 ЕС",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 38023,
+   "routeId": 713002,
+   "vehicleCode": "ВС 5144 ВХ",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 38147,
+   "routeId": 713002,
+   "vehicleCode": "ВС 1122 ЕС",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 37190,
+   "routeId": 713010,
+   "vehicleCode": "ВС 0339 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 37225,
+   "routeId": 713010,
+   "vehicleCode": "ВС 2801 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 38720,
+   "routeId": 949921,
+   "vehicleCode": "ВС 2824 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 38727,
+   "routeId": 949921,
+   "vehicleCode": "ВС 2629 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 38730,
+   "routeId": 949921,
+   "vehicleCode": "ВС 2393 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 38752,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 4329 СО",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 38934,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 1128 СР",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 38936,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 1134 СР",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 38968,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 1129 СР",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 38970,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 7242 СО",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 39098,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 0855 ВР",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 39116,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 9144 ВТ",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 39117,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 1328 СХ",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 39118,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 2539 ЕН",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 37611,
+   "routeId": 1527114,
+   "vehicleCode": "ВС 1048 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 37617,
+   "routeId": 1527114,
+   "vehicleCode": "ВС 1039 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 37657,
+   "routeId": 1527114,
+   "vehicleCode": "ВС 1398 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 37677,
+   "routeId": 1527114,
+   "vehicleCode": "ВС 1763 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 37678,
+   "routeId": 1527114,
+   "vehicleCode": "ВС 1101 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 37695,
+   "routeId": 1527114,
+   "vehicleCode": "ВС 2989 АА",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 38726,
+   "routeId": 949921,
+   "vehicleCode": "ВС 2508 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 38729,
+   "routeId": 949921,
+   "vehicleCode": "ВС 1972 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 38930,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 8991 СН",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 39105,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 3235 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 39108,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 3495 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 39109,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 3137 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 39110,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 0882 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 39111,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 1380 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 39113,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 3226 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 39114,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 2595 СК",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 39179,
+   "routeId": 1054553,
+   "vehicleCode": "ВС 8215 ЕН",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 64507,
+   "routeId": 712991,
+   "vehicleCode": "ВС 9666 ЕТ",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 64505,
+   "routeId": 712991,
+   "vehicleCode": "ВС 7742 ЕТ",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 37167,
+   "routeId": 713002,
+   "vehicleCode": "ВС 2807 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 64506,
+   "routeId": 712991,
+   "vehicleCode": "ВС 3439 ЕХ",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 64494,
+   "routeId": 712991,
+   "vehicleCode": "ВС 6556 ЕТ",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 37159,
+   "routeId": 713002,
+   "vehicleCode": "ВС 0829 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 64502,
+   "routeId": 712991,
+   "vehicleCode": "ВС 2662 ЕР",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 37166,
+   "routeId": 713002,
+   "vehicleCode": "ВС 2802 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 64355,
+   "routeId": 712991,
+   "vehicleCode": "ВС 2487 ЕТ",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 64358,
+   "routeId": 712991,
+   "vehicleCode": "ВС 2494 ЕТ",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 37160,
+   "routeId": 713002,
+   "vehicleCode": "ВС 1127 АА",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 39187,
+   "routeId": 1054553,
+   "vehicleCode": "ВС 8216 ЕН",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 64494,
+   "routeId": 712991,
+   "vehicleCode": "ВС 6556 ЕТ",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 64502,
+   "routeId": 712991,
+   "vehicleCode": "ВС 2662 ЕР",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 64364,
+   "routeId": 712991,
+   "vehicleCode": "ВС 2480 ЕТ",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 37984,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 2891 ВО",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 39174,
+   "routeId": 1054553,
+   "vehicleCode": "ВС 8208 ЕН",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 64505,
+   "routeId": 712991,
+   "vehicleCode": "ВС 7742 ЕТ",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 64355,
+   "routeId": 712991,
+   "vehicleCode": "ВС 2487 ЕТ",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 64497,
+   "routeId": 712991,
+   "vehicleCode": "ВС 3663 ЕТ",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 64497,
+   "routeId": 712991,
+   "vehicleCode": "ВС 3663 ЕТ",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 39186,
+   "routeId": 1054553,
+   "vehicleCode": "ВС 8214 ЕН",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 64317,
+   "routeId": 712991,
+   "vehicleCode": "ВС 2129 ЕТ",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 36922,
+   "routeId": 713010,
+   "vehicleCode": "ВС 2932 АМ",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 52188,
+   "routeId": 713010,
+   "vehicleCode": "АТ 3587 ВІ",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 38752,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 4329 СО",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 39119,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 4645 СР",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 39051,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 8812 СН",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 38973,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 1132 СР",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 39032,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 3230 АА",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 39175,
+   "routeId": 1054553,
+   "vehicleCode": "ВС 8205 ЕН",
+   "hasLowFloor": 0
+ },
+ {
+   "vehicleId": 39115,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 0214 СХ",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 39100,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 3343 АА",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 39101,
+   "routeId": 1723724,
+   "vehicleCode": "ВС 3486 АА",
+   "hasLowFloor": 1
+ },
+ {
+   "vehicleId": 64338,
+   "routeId": 713002,
+   "vehicleCode": "Віртуальний Міра",
+   "hasLowFloor": 0
+ }
+]
